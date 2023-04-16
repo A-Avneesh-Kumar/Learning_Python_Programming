@@ -1,0 +1,12 @@
+#input two variable from user, then swithch with help of another 'c' variable and finally print result.
+
+
+a = input("a:")
+b= input("b:")
+
+c = a
+a = b
+b = c
+
+print("a:" + a)
+print("b:" + b)
