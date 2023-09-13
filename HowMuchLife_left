@@ -1,0 +1,7 @@
+age = int(input("Please enter your current age in years: "))
+
+years_left = 70 - age
+months_left = years_left * 12
+days_left = years_left * 365
+
+print(f"You have {years_left} years left, or {months_left} months left, or {days_left} days left.")
