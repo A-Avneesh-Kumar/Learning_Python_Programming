@@ -1,7 +1,10 @@
-height = input("Enter your height in mtr.: ")
-weight = input("Enter your weight in kg.: ")
+# Getting input from user.
+height = float(input("Please enter your height in (mtr.).: "))
+weight = float(input("Please enter your weight in (kg).: "))
 
-bmi = int(weight)/float(height)**2
+# Calculating BMI and round off the result.
+bmi = round( ((weight)/(height)**2), 2)
 
-bmi_as_int = int(bmi)
-print(bmi_as_int)
+# Printing final result.
+print("Your BMI is: ", bmi)
+
